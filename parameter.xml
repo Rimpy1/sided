@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test name="chrome">
+  <parameter name="sUsername" value="user3@mailinator.com"/>
+  <parameter name="sPassword" value="user123"/>
+  <classes>
+  <class name="TestNG.TestngParameters"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

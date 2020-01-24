@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="RetryFailedTests" >
+ <listeners>
+ <listener class-name="AutomationFramework.AnnotationTransformer"/>
+  </listeners>
+  <test name="chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+    <class name="AutomationFramework.Signup"></class>
+     <class name="AutomationFramework.Login"></class>
+     <class name="AutomationFramework.moderation_queue"></class>
+     <class name="AutomationFramework.Debate"></class>
+     <class name="AutomationFramework.DebateShare"></class>
+     <class name="AutomationFramework.AddArgumentandComments"></class>
+    <class name="AutomationFramework.MyProfile"></class>
+     <class name="AutomationFramework.SettingPage"></class>
+     <class name="AutomationFramework.Voting_functionality"></class>
+     <class name="AutomationFramework.report_functionality"></class>
+     <class name="AutomationFramework.pre_login_functionality"></class>
+     </classes>
+  </test>
+   </suite>

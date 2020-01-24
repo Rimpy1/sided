@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [settings=]">
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test thread-count="5" name="setting(failed)">
+    <classes>
+      <class name="AutomationFramework.SettingPage">
+        <methods>
+          <include name="username_validation"/>
+          <include name="Namelimit"/>
+          <include name="UsernameLimit"/>
+          <include name="login"/>
+          <include name="email_validation"/>
+          <include name="blankfields"/>
+        </methods>
+      </class> <!-- AutomationFramework.SettingPage -->
+    </classes>
+  </test> <!-- setting(failed) -->
+</suite> <!-- Failed suite [settings=] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="settings">
+<test name="settings">
+
+<parameter name="Name" value="user1user1user1"></parameter>
+<parameter name="Username" value="user123"></parameter>
+<parameter name="Email" value="user3@mailinator.com"></parameter>
+<parameter name="Oldpass" value="user123"></parameter>
+<parameter name="newpass" value="user123"></parameter>
+<parameter name="confirmpass" value="user123"></parameter>
+<classes>
+<class name="AutomationFramework.SettingPage">
+</class>
+</classes>
+
+
+</test>
+</suite>

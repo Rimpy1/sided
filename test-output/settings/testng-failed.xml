@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [settings]">
+  <test thread-count="5" name="settings(failed)">
+    <parameter name="confirmpass" value="user123"/>
+    <parameter name="Email" value="user3@mailinator.com"/>
+    <parameter name="Username" value="user123"/>
+    <parameter name="Oldpass" value="user123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="newpass" value="user123"/>
+    <parameter name="Name" value="user1user1user1"/>
+    <classes>
+      <class name="AutomationFramework.SettingPage">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+          <include name="beforeMethod" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AutomationFramework.SettingPage -->
+    </classes>
+  </test> <!-- settings(failed) -->
+</suite> <!-- Failed suite [settings] -->

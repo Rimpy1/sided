@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="settings=">
+<listeners>
+ <listener class-name="utility.Listener"/>
+ </listeners>
+<test name="setting">
+<classes>
+<class name="AutomationFramework.SettingPage">
+
+</class>
+</classes>
+</test>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</suite>
